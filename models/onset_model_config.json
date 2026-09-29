@@ -1,0 +1,16 @@
+{
+    "model": "RandomForestClassifier",
+    "target": "target_flood_onset_next_day",
+    "train_period": "2010-2018",
+    "validation_period": "2019-2020",
+    "test_period": "2021-2022",
+    "n_estimators": 500,
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "min_samples_split": 4,
+    "class_weight": "balanced_subsample",
+    "random_state": 42,
+    "default_threshold": 0.5,
+    "early_warning_threshold": 0.2,
+    "total_positive_cases": 16
+}

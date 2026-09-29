@@ -1,0 +1,4 @@
+threshold,accuracy,precision,recall,f1,roc_auc,pr_auc,true_negatives,false_positives,false_negatives,true_positives,dataset
+0.5,1.0,1.0,1.0,1.0,1.0,1.0,3261,0,0,12,train
+0.5,0.9986320109439124,0.0,0.0,0.0,0.9493150684931506,0.02631578947368421,730,0,1,0,validation
+0.5,0.9958904109589041,0.0,0.0,0.0,0.8335625859697386,0.01736665681981943,727,0,3,0,test

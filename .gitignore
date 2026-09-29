@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# MLflow
+mlruns/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Secrets
+.env
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large/generated datasets
+data/interim/
+data/processed/
+
+# Model artifacts
+models/*.joblib
+
+# Keep important project metadata
+!models/*_model_config.json
+!models/*_training_metrics.csv
+!models/*_feature_importance.csv
+!models/*_threshold_analysis.csv
+!models/*_test_predictions.csv
