@@ -15,7 +15,7 @@ The project demonstrates an end-to-end machine learning workflow with an MLOps-o
     - [Intelligent Urban Flood Prediction \& Early Warning System](#intelligent-urban-flood-prediction--early-warning-system)
   - [Table of Contents](#table-of-contents)
   - [🌍 Overview](#-overview)
-  - [� Project Demo](#-project-demo)
+  - [🎥 Project Demo](#-project-demo)
   - [🎯 Problem Statement](#-problem-statement)
   - [🎯 Objectives](#-objectives)
   - [✨ Key Features](#-key-features)
