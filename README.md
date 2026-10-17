@@ -11,26 +11,51 @@ The project demonstrates an end-to-end machine learning workflow with an MLOps-o
 
 ## Table of Contents
 
-- [Overview](#-overview)
-- [Problem Statement](#-problem-statement)
-- [Objectives](#-objectives)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Technology Stack](#-technology-stack)
-- [Dataset and Feature Engineering](#-dataset-and-feature-engineering)
-- [Machine Learning Model](#-machine-learning-model)
-- [Model Evaluation](#-model-evaluation)
-- [Project Structure](#-project-structure)
-- [Installation and Setup](#-installation-and-setup)
-- [Running the Application](#-running-the-application)
-- [Using the Dashboard](#-using-the-dashboard)
-- [API Documentation](#-api-documentation)
-- [Understanding the Prediction](#-understanding-the-prediction)
-- [MLOps Workflow](#-mlops-workflow)
-- [Limitations](#-limitations)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [Disclaimer](#-disclaimer)
+- [FloodGuard 🌊](#floodguard-)
+    - [Intelligent Urban Flood Prediction \& Early Warning System](#intelligent-urban-flood-prediction--early-warning-system)
+  - [Table of Contents](#table-of-contents)
+  - [🌍 Overview](#-overview)
+  - [� Project Demo](#-project-demo)
+  - [🎯 Problem Statement](#-problem-statement)
+  - [🎯 Objectives](#-objectives)
+  - [✨ Key Features](#-key-features)
+  - [🏗️ System Architecture](#️-system-architecture)
+    - [Architecture components](#architecture-components)
+  - [🧰 Technology Stack](#-technology-stack)
+  - [📊 Dataset and Feature Engineering](#-dataset-and-feature-engineering)
+    - [Data sources](#data-sources)
+    - [Feature engineering](#feature-engineering)
+    - [Prediction target](#prediction-target)
+  - [🤖 Machine Learning Model](#-machine-learning-model)
+    - [Model configuration](#model-configuration)
+    - [Chronological evaluation](#chronological-evaluation)
+  - [📈 Model Evaluation](#-model-evaluation)
+    - [Interpreting the results](#interpreting-the-results)
+  - [📁 Project Structure](#-project-structure)
+  - [🚀 Installation and Setup](#-installation-and-setup)
+    - [Prerequisites](#prerequisites)
+    - [Step 1: Clone the repository](#step-1-clone-the-repository)
+    - [Step 2: Create a virtual environment](#step-2-create-a-virtual-environment)
+    - [Step 3: Install dependencies](#step-3-install-dependencies)
+    - [Step 4: Verify required files](#step-4-verify-required-files)
+  - [▶️ Running the Application](#️-running-the-application)
+    - [Terminal 1: Start the FastAPI backend](#terminal-1-start-the-fastapi-backend)
+    - [Terminal 2: Start the Streamlit dashboard](#terminal-2-start-the-streamlit-dashboard)
+    - [Quick-start command summary](#quick-start-command-summary)
+  - [🖥️ Using the Dashboard](#️-using-the-dashboard)
+  - [🔌 API Documentation](#-api-documentation)
+    - [Example prediction request](#example-prediction-request)
+    - [Example response](#example-response)
+  - [🚦 Understanding the Prediction](#-understanding-the-prediction)
+    - [Risk levels](#risk-levels)
+    - [Key risk indicators](#key-risk-indicators)
+  - [⚙️ MLOps Workflow](#️-mlops-workflow)
+    - [Implemented components](#implemented-components)
+    - [Planned production extensions](#planned-production-extensions)
+  - [⚠️ Limitations](#️-limitations)
+  - [🔮 Future Enhancements](#-future-enhancements)
+  - [🤝 Contributing](#-contributing)
+  - [⚖️ Disclaimer](#️-disclaimer)
 
 ---
 
@@ -47,6 +72,14 @@ The system converts the model output into an understandable risk assessment and 
 **Environmental Data → Feature Engineering → Machine Learning → Flood-Risk Prediction → Interactive Dashboard**
 
 The current implementation focuses on Chennai, India, and serves as a foundation for developing a more comprehensive urban flood-intelligence platform.
+
+## 🎥 Project Demo
+
+Watch the complete FloodGuard project demonstration to see the FastAPI prediction service, the interactive Streamlit dashboard, and the flood-risk assessment workflow in action.
+
+▶️ **[Watch the FloodGuard Demo Video](https://drive.google.com/file/d/1LX_Z0WzV0_ZhyUXqyFXawvIKTWNJuKyA/view?usp=sharing)**
+
+*The demo showcases the project workflow, environmental indicators, flood-risk predictions, and dashboard visualizations.*
 
 ## 🎯 Problem Statement
 
