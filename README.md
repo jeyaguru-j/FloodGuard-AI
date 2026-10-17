@@ -25,7 +25,7 @@ The project demonstrates an end-to-end machine learning workflow with an MLOps-o
   - [📊 Dataset and Feature Engineering](#-dataset-and-feature-engineering)
     - [Data sources](#data-sources)
     - [Feature engineering](#feature-engineering)
-    - [Prediction target](#prediction-target)
+    - [Prediction Target](#prediction-target)
   - [🤖 Machine Learning Model](#-machine-learning-model)
     - [Model configuration](#model-configuration)
     - [Chronological evaluation](#chronological-evaluation)
@@ -219,7 +219,7 @@ Examples include:
 
 These features help the model represent persistent rainfall and environmental patterns instead of relying exclusively on a single day's observations.
 
-### Prediction target
+### Prediction Target
 
 The primary target is:
 
@@ -227,13 +227,11 @@ The primary target is:
 
 For an analysis date \(t\), the target is positive if at least one of the next three daily observations is labelled as a flood day:
 
-\[
-y_t = \mathbb{1}\left[
-y_{t+1}=1 \lor y_{t+2}=1 \lor y_{t+3}=1
-\right]
-\]
+$$
+y_t = \mathbb{1}\left[y_{t+1}=1 \lor y_{t+2}=1 \lor y_{t+3}=1\right]
+$$
 
-This is a three-day episode-risk target, not a prediction of the exact time a flood will begin. Overlapping positive windows can occur during prolonged flood events.
+This is a **three-day episode-risk target**, not a prediction of the exact time a flood will begin. Overlapping positive windows can occur during prolonged flood events.
 
 ## 🤖 Machine Learning Model
 
